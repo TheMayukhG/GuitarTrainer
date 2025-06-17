@@ -2,7 +2,7 @@
 
 import numpy as np
 
-# Standard guitar string tuning (low E to high E) in Hz
+# 440hz A4 tuning, I 2x = 1octave = 8 notes,
 STANDARD_TUNING = {
     "E2": 82.41,
     "A2": 110.00,
@@ -12,7 +12,7 @@ STANDARD_TUNING = {
     "E4": 329.63
 }
 
-# All note names across octaves
+# note er array
 NOTE_NAMES = ['C', 'C#', 'D', 'D#', 'E', 'F',
               'F#', 'G', 'G#', 'A', 'A#', 'B']
 
