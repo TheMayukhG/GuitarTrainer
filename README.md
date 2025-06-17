@@ -52,3 +52,40 @@ pip install -r requirements.txt
 
 # Step 5: Run the app
 python main.py
+```
+# 🎯 Tuning Reference
+Standard 6-string guitar tuning:
+
+String	Note	Frequency (Hz)
+6	E2	82.41
+5	A2	110.00
+4	D3	146.83
+3	G3	196.00
+2	B3	246.94
+1	E4	329.63
+
+# 🧪 Tested On
+✅ Windows 10 / 11
+
+✅ Ubuntu 22.04
+
+✅ Python 3.10+
+
+✅ Works with built-in mic, external interfaces, basically it takes the default device as the input device
+
+# 💬 Credits
+Made by TheMayukhG
+Student @ Class 10, CBSE — Kendriya Vidyalaya Bolpur.
+
+# 🪓 Future Plans (Optional)
+Auto string detection
+
+Support for alternate tunings (Drop D, Open G, etc.)
+
+Visual waveform/spectrum view
+
+Export pitch data to CSV to track improvement
+
+# ☕ Contributing
+This is a solo project, but any kind of improvements is heartily welcome
+
