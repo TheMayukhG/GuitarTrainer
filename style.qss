@@ -22,10 +22,6 @@ QPushButton#stringButton[selected="true"] {
     border: 1px solid #007acc;
 }
 
-/* ===== String Picker Row ===== */
-
-
-/* ===== Section Titles ===== */
 #labelTarget {
     margin-top: 20px;
     font-weight: 600;
@@ -33,14 +29,12 @@ QPushButton#stringButton[selected="true"] {
     color: #666;
 }
 
-/* ===== Big Note ===== */
 #noteLabel {
     font-size: 78px;
     font-weight: 200;
     color: #fff;
 }
 
-/* ===== Result Feedback ===== */
 #resultLabel {
     font-size: 16px;
     font-weight: 600;
@@ -61,14 +55,12 @@ QPushButton#stringButton[selected="true"] {
     color: #CFCFCF;
 }
 
-/* ===== Debug Text ===== */
 #debugLabel {
     font-size: 11px;
     color: #CFCFCF;
     padding: 4px;
 }
 
-/* ===== Buttons ===== */
 QPushButton#startButton {
     background-color: #FFFFFF;
     color: white;
