@@ -35,7 +35,7 @@ Built using:
 
 ```bash
 # Step 1: Clone the repository
-git clone https://github.com/YOUR_USERNAME/guitar-tuner.git
+git clone https://github.com/TheMayukhG/GuitarTrainer.git .
 cd guitar-tuner
 
 # Step 2: Create a virtual environment
