@@ -13,7 +13,7 @@ CONFIDENCE_THRESHOLD = 0.85
 
 class AudioPitchStream:
     def __init__(self, callback):
-        self.callback = callback  # Will be a signal.emit(...)
+        self.callback = callback  
         self.buffer = np.zeros(FRAME_SIZE, dtype=np.float32)
         self.running = False
         self.q = queue.Queue()
