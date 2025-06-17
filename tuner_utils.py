@@ -3,18 +3,18 @@
 import numpy as np
 from constants import freq_to_note_name, NOTE_NAMES
 
-A4_FREQ = 440.0  # Standard pitch
+A4_FREQ = 440.0  # 4 saptak A
 
 def freq_to_midi_number(freq):
-    # Convert frequency to the closest MIDI number.
+    # midi number, A4 saptak, 69
     return int(round(12 * np.log2(freq / A4_FREQ) + 69))
 
 def midi_number_to_freq(midi_number):
-    # Convert MIDI number back to frequency.
+    # for if I were to get midi number, 50%
     return A4_FREQ * (2 ** ((midi_number - 69) / 12))
 
 def get_pitch_difference(target_freq, played_freq):
-#    Return semitone and cent difference between played and target.
+#    target - played, if + then flat, if - then sharp
     if played_freq <= 0:
         return None, None
 
@@ -27,7 +27,7 @@ def get_pitch_difference(target_freq, played_freq):
     return semitone_diff, cent_diff
 
 def is_pitch_close(target_freq, played_freq, threshold_cents=50):
-    # Returns True if within threshold_cents of target_freq.
+    # threshold comparison
     _, cents = get_pitch_difference(target_freq, played_freq)
     return abs(cents) <= threshold_cents
 
