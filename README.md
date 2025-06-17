@@ -1,7 +1,6 @@
 # 🎸 Real-Time Guitar Tuner (Python + PyQt6)
 
-A real-time guitar tuning app that uses live microphone input to detect pitch, calculate accuracy in cents/semitones, and display it with a slick PyQt6 interface.
-
+A real time Guitar Trainer app that Suggests a random note on a specific string, and detects the note play via the default mic, and for correct note, it shows, and suggests the next note
 Built using:
 - 🎤 Live audio capture via `sounddevice`
 - 🎶 Pitch detection using `librosa` (YIN algorithm)
